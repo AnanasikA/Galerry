@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!--style css file -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!--style file awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+    <!--image slider  start-->
+
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio-1">
+            <input type="radio" name="radio-btn" id="radio-2">
+            <input type="radio" name="radio-btn" id="radio-3">
+            <input type="radio" name="radio-btn" id="radio-4">
+            <!--radio buttons end-->
+
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="./image/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./image/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./image/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./image/4.jpg" alt="">
+            </div>
+            <!--slide images end-->
+
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn-1"></div>
+                <div class="auto-btn-2"></div>
+                <div class="auto-btn-3"></div>
+                <div class="auto-btn-4"></div>
+            </div>
+            <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio-1" class="manual-btn"></label>
+            <label for="radio-2" class="manual-btn"></label>
+            <label for="radio-3" class="manual-btn"></label>
+            <label for="radio-4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+
+    <!--image slider  end-->
+
+    <!--script js file-->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
